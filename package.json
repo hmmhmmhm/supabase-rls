@@ -1,6 +1,7 @@
 {
   "name": "supabase-rls",
   "version": "1.0.0",
+  "homepage": "https://supabase-rls.up.railway.app",
   "private": true,
   "scripts": {
     "dev": "next dev",

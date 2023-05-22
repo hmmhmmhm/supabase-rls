@@ -8,7 +8,7 @@
 
 ## 🚀 Usage
 
-Redirect to website: [https://supabase-rls.railway.app](https://supabase-rls.railway.app)
+Redirect to website: [https://supabase-rls.up.railway.app](https://supabase-rls.up.railway.app)
 
 > Or you can run it local project. See [rls-ts](https://github.com/hmmhmmhm/rls-ts) repository.
 
