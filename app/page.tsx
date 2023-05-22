@@ -124,7 +124,7 @@ export default function Home() {
         <GitHubButton
           type="stargazers"
           namespace="hmmhmmhm"
-          repo="supabase-rls"
+          repo="rls-ts"
         />
       </div>
       <ToastContainer />
