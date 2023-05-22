@@ -1,12 +1,15 @@
 "use client";
 import { useForm } from "react-hook-form";
-import Balancer from "react-wrap-balancer";
 import { toast } from "react-toastify";
 import { useContext, useState } from "react";
 import { SupabaseContext } from "@/context/SupabaseContext";
 import { useRouter } from "next/navigation";
 import { ToastContainer } from "react-toastify";
+import Balancer from "react-wrap-balancer";
+import GitHubButton from "react-github-button";
+
 import "react-toastify/dist/ReactToastify.css";
+import "react-github-button/assets/style.css";
 
 export type ProjectFormInput = { projectId: string; accessToken: string };
 
@@ -117,6 +120,13 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="absolute top-4 right-4 hidden sm:block">
+        <GitHubButton
+          type="stargazers"
+          namespace="hmmhmmhm"
+          repo="supabase-rls"
+        />
+      </div>
       <ToastContainer />
     </main>
   );
